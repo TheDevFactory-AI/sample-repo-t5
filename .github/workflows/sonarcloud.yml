@@ -26,11 +26,10 @@ jobs:
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         with:
-          token : ${{6fc64e77a52492cc3cf278022dc09d987a996389}}
           entryPoint: 'sonar-scanner'
           args: |
             -Dsonar.organization=thedevfactory-ai
             -Dsonar.projectKey=01333
             -Dsonar.sources=.
             env:
-              SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+              SONAR_TOKEN: a832ec3c175662f182472ee49598e559289aecb6
