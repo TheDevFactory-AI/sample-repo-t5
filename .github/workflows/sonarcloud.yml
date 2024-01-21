@@ -32,4 +32,4 @@ jobs:
             -Dsonar.projectKey=01333
             -Dsonar.sources=.
             env:
-              SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+              SONAR_TOKEN: ${{6fc64e77a52492cc3cf278022dc09d987a996389}}
