@@ -29,7 +29,7 @@ jobs:
           entryPoint: 'sonar-scanner'
           args: >
             -Dsonar.organization=thedevfactory-ai
-            -Dsonar.projectKey=01333
+            -Dsonar.projectKey=01333_yfprime_sample-repo-t5
             -Dsonar.sources=.
         env:
           SONAR_TOKEN: a832ec3c175662f182472ee49598e559289aecb6
